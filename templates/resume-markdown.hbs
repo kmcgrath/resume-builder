@@ -1,0 +1,43 @@
+# {{{contact.name}}}
+<{{{contact.email}}}>
+
+## Summary
+{{{summary}}}
+
+## Strengths
+{{~#each strengths}}
+* {{{this}}}
+{{~/each}}
+
+## Skills
+{{~#each skills}}
+* {{{this}}}
+{{~/each}}
+
+## Experience
+{{#each jobs}}
+### {{{employer}}}
+{{{location}}} {{{timeframe}}}
+{{#each positions}}
+#### {{{title}}}
+{{{summary}}}
+{{~#if accomplishments}}
+##### Accomplishments
+{{~#each accomplishments}}
+* {{{this}}}
+{{~/each}}
+{{~/if}}
+{{/each}}
+{{/each}}
+
+## Education
+{{#each schools}}
+### {{school}} - {{year}}
+{{degree}}
+{{/each}}
+
+## References
+{{~#if requirements}}
+{{else}}
+References available upon request.
+{{~/if}}

@@ -1,0 +1,28 @@
+{
+  "name": "kevin.mcgrath-resume",
+  "version": "1.0.0",
+  "dependencies": {
+    "sass-bootstrap": "~2.3.0",
+    "jquery": "~2.1.0",
+    "requirejs": "~2.1.5",
+    "requirejs-text": "~2.0.5",
+    "requirejs-domready": "~2.0.1",
+    "backbone-amd": "~1.1.0",
+    "underscore-amd": "~1.4.4",
+    "underscore.string": "~2.3.3",
+    "modernizr": "~2.6.2",
+    "backbone.marionette": "~1.4.0",
+    "backbone.wreqr": "~0.2.0",
+    "backbone.babysitter": "~0.0.6",
+    "require-handlebars-plugin": "~0.4.0",
+    "mocha": "~1.12.0",
+    "foundation": "git://github.com/zurb/foundation#master",
+    "foundation-icon-fonts": "git://github.com/zurb/foundation-icon-fonts#master",
+    "animate.css": "~3.0.0",
+    "fastclick": "~0.6.10",
+    "animo.js": "*",
+    "almond": "*"
+  },
+  "devDependencies": {},
+  "directory": "bower_components"
+}

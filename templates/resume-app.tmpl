@@ -1,0 +1,50 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>Kevin McGrath</title>
+
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+<!-- build:css styles/style.min.css -->
+<link href='styles/style.css' rel='stylesheet' />
+<link href='../../bower_components/foundation-icon-fonts/foundation-icons.css' rel='stylesheet' />
+<!-- endbuild -->
+
+<!-- build:js scripts/vendor/modernizr.js -->
+<script src="../../bower_components/modernizr/modernizr.js"></script>
+<!-- endbuild -->
+
+<script type="text/template" id="template-app">
+  <%=content%>
+</script>
+
+</head>
+
+<body>
+  <div id="app"></div>
+</div>
+
+
+<!-- process:remove scripts/app.js -->
+<script>document.write('<script src="http://'
++ (location.host || 'localhost').split(':')[0]
++ ':35729/livereload.js"><\/script>');
+</script>
+<!-- /process -->
+
+<!-- process:js scripts/app.js -->
+<script data-main="../../scripts/init" src="../../bower_components/requirejs/require.js"></script>
+<!-- /process -->
+
+</body>
+</html>

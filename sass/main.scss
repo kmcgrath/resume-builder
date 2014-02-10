@@ -1,0 +1,113 @@
+$header-font-color: #2a2f3d;
+$body-font-color: #333;
+
+
+@import "../bower_components/foundation/scss/normalize.scss";
+@import "../bower_components/foundation/scss/foundation.scss";
+
+
+
+body {
+  @include grid-row();
+}
+
+#app {
+  @include grid-column(
+      $columns: 10,
+      $center:true
+  );
+}
+
+@media only screen {
+
+  #app {
+    padding-top: 80px;
+  }
+
+  #footer {
+    position: fixed;
+    background: transparent;
+    font-size: 3em;
+    bottom: 0px;
+    right: 0px;
+    text-align: right;
+  }
+
+  #footer i {
+    padding-right: 1em;
+  }
+
+  .nav-links {
+    @include grid-row();
+    position: fixed;
+    top: 0px;
+    background: #fff;
+    padding-top: 2em;
+    width: 100%;
+  }
+}
+
+@media only print {
+
+  #footer {
+    display: none;
+  }
+
+  #bottom-spacer {
+    display: none;
+  }
+
+  .nav-links {
+    display: none;
+  }
+}
+
+h2 {
+  @include panel(
+    $padding: 5px,
+    $bg: false
+  );
+  border-bottom: thin solid black;
+}
+
+h3, h3+p {
+  @include panel(
+    $padding: 5px,
+    $bg: #646b7d
+  );
+  border-style: none;
+  color: #f7f7f7;
+  padding-left: 20px;
+}
+
+h3 {
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+
+h3+p {
+  margin-top: -10px;
+}
+
+h4 {
+  @include panel(
+    $padding:5px,
+    $bg: false
+  );
+  border-bottom: thin solid black;
+  margin-left: 20px;
+}
+
+h4+p, h4+p+p, h5, h5+p {
+  margin-left: 20px;
+}
+
+h4+p+p+ul, h5+ul {
+  margin-left: 40px;
+}
+
+
+ul > li {
+  margin-left: 25px;
+}
