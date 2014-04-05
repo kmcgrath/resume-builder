@@ -30,7 +30,7 @@ skills:
   - Bash shell scripting
   - RedHat/Linux server administration
   - MongoDB, CouchDB
-  - MySQL, Postgres and Oracle
+  - MySQL, PostgreSQL and Oracle
   - REST compliant Web Service orchestration
   - Apache HTTPD and NGINX
   - RabbitMQ, ActiveMQ, Gearman
@@ -52,13 +52,15 @@ jobs:
           - Created a customized RESTful document storage service inspired by
             Amazon’s S3 written in Ruby using a sharded MongoDB cluster for storage.
           - Led the evolution of SunGard’s client facing application from a
-            traditional two server cluster to a virtualized and now scalable cloud
+            traditional two server cluster to a virtual and now scalable cloud
             based environment.
           - Implemented a full service, permission based, RESTful API for SunGard’s
             core CMDB.
+          - Standardized RESTful API calls and query language for client and
+            inter-application communication.
           - Introduced HTML5 mobile development with a prototype application that
-            will be able to run on any device.  Current testing includes Android and
-            IOS devices only.
+            will be able to run on any device.  Current testing includes Android, iOS
+            and traditional web browsers.
 
   - employer: AT&T / USi
     location: Annapolis, MD
@@ -94,7 +96,7 @@ jobs:
         accomplishments:
           - Utilizing open source standards of BPEL, WSDL, and SOAP combined with Oracle
             Application Server and Oracle BPEL Process Manager a system was created that
-            automatically started processes, assigned tasks, and competed scriptable work
+            automatically started processes, assigned tasks, and competed automatic tasks
             without human intervention.
           - Designed and implemented a SAN portal within Oasis for management and billing
             making it possible to charge clients for provisioned, used and future storage
