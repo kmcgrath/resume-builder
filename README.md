@@ -10,7 +10,7 @@ HTML, PDF and a small JavaScript based web application that implements
 [Backbone.Marionette](http://marionettejs.com/) and [Foundation 5](http://foundation.zurb.com/).
 
 The output of this builder is stored in it's own [repository](https://github.com/kmcgrath/resume)
-and the JavaScript appliction can be viewed at [https://kmcgrath.github.io/resume](https://kmcgrath.github.io/resume/).
+and the JavaScript application can be viewed at [https://kmcgrath.github.io/resume](https://kmcgrath.github.io/resume/).
 
 ## Build It
 
