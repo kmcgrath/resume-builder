@@ -16,7 +16,7 @@ and the JavaScript appliction can be viewed at [https://kmcgrath.github.io/resum
 
 1. Fork the repo
 2. Update resume.yml
-3. run: gunt dist
+3. run: grunt dist
 
 The dist directory will contain all the outputs mentioned above.
 
