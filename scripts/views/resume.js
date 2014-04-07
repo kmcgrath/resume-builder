@@ -1,4 +1,13 @@
-define(['backbone','underscore.string','backbone.marionette'], function(Backbone,_s) {
+define([
+  'jquery',
+  'backbone',
+  'underscore.string',
+  'backbone.marionette'
+], function(
+  $,
+  Backbone,
+  _s
+) {
   return Backbone.Marionette.ItemView.extend({
     template: '#template-app',
     onRender: function() {
@@ -20,8 +29,9 @@ define(['backbone','underscore.string','backbone.marionette'], function(Backbone
         var $link = $('<a></a>');
 
         $link.click(function() {
+          var navHeight = $('#app .nav-links').height();
           $('html,body').animate({
-            scrollTop: $('a[name='+name+']').offset().top - 80
+            scrollTop: $('a[name='+name+']').offset().top - (navHeight + 30)
           }, 1000);
         });
 
