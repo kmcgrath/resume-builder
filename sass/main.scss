@@ -41,14 +41,12 @@ body {
     @include grid-row();
     position: fixed;
     top: 0px;
-    left: 0px;
     background: #fff;
     padding-top: 2em;
     width: 100%;
     dl {
       @include grid-column(
-          $columns: 10,
-          $center:true
+          $columns: 10
       );
     }
   }
