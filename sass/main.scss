@@ -13,8 +13,8 @@ body {
 
 #app {
   @include grid-column(
-      $columns: 10,
-      $center:true
+  $columns: 10,
+  $center:true
   );
 }
 
@@ -46,7 +46,7 @@ body {
     width: 100%;
     dl {
       @include grid-column(
-          $columns: 10
+      $columns: 10
       );
     }
   }
@@ -65,20 +65,24 @@ body {
   .nav-links {
     display: none;
   }
+
+  a[href^="mailto:"]:after {
+    content: ''
+  }
 }
 
 h2 {
   @include panel(
-    $padding: 5px,
-    $bg: false
+  $padding: 5px,
+  $bg: false
   );
   border-bottom: thin solid black;
 }
 
 h3, h3+p {
   @include panel(
-    $padding: 5px,
-    $bg: #646b7d
+  $padding: 5px,
+  $bg: #646b7d
   );
   border-style: none;
   color: #f7f7f7;
@@ -97,8 +101,8 @@ h3+p {
 
 h4 {
   @include panel(
-    $padding:5px,
-    $bg: false
+  $padding:5px,
+  $bg: false
   );
   border-bottom: thin solid black;
   margin-left: 20px;
